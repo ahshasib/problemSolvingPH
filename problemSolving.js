@@ -1,3 +1,7 @@
+
+
+// Problem 1: Reverse a String
+// Write a function that takes a string and returns it reversed.
 const reversedFun = (string) =>{
     let result = ""
     for (let i = string.length - 1 ; i >= 0; i--){
@@ -7,7 +11,12 @@ const reversedFun = (string) =>{
 }
 console.log(reversedFun("Hello"))
 
-function countVowels(str) {
+
+// -----------------------------------------
+
+
+
+const countVowels = (str)=> {
     let vowels = "aeiouAEIOU";
     let count = 0;
     for (let char of str) {
@@ -18,5 +27,5 @@ function countVowels(str) {
     return count;
   }
   
-  console.log(countVowels("programming")); // Output: 3
+  console.log(countVowels("programming")); 
   
