@@ -133,3 +133,37 @@ console.log(capitalizeWords("hello world")); // Output: "Hello World"
 
 // Problem 9: Find the Factorial of a Number
 // Write a function that calculates the factorial of a number using a loop.
+const factorial = (n) => {
+  let fact = 1;
+  for (let i = 1; i <= n; i++) {
+    fact *= i;
+  }
+  return fact;
+}
+console.log(factorial(5)); // Output: 120
+
+
+
+// ---------------------------------------------------------------------------------
+
+
+
+// Problem 10: PingPong Challenge
+// Write a function that prints numbers from 1 to 20.
+const pingPong = () => {
+  for (let i = 1; i <= 20; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("PingPong");
+    } else if (i % 3 === 0) {
+      console.log("Ping");
+    } else if (i % 5 === 0) {
+      console.log("Pong");
+    } else {
+      console.log(i);
+    }
+  }
+}
+pingPong();
+
+
+//--------------------------------------------  The END  -----------------------------------------------
