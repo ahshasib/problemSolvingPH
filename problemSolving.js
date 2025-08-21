@@ -41,8 +41,8 @@ const isPalindrome = (str) => {
   }
   return str === reversed;
 }
-console.log(isPalindrome("madam")); // true
-console.log(isPalindrome("hello")); // false
+console.log(isPalindrome("madam")); 
+console.log(isPalindrome("hello")); 
 
 
 // ---------------------------------------------------------------------------------
@@ -59,7 +59,7 @@ const findMax = (arr) => {
   }
   return max;
 }
-console.log(findMax([5, 1, 9, 3])); // Output: 9
+console.log(findMax([5, 1, 9, 3])); 
 
 
 // ---------------------------------------------------------------------------------
@@ -76,7 +76,7 @@ const removeDuplicates = (arr) => {
   }
   return unique;
 }
-console.log(removeDuplicates([1, 2, 2, 3, 4, 4])); // Output: [1, 2, 3, 4]
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4])); 
 
 
 // ---------------------------------------------------------------------------------
@@ -91,7 +91,7 @@ const sumArray = (arr) => {
   }
   return sum;
 }
-console.log(sumArray([1, 2, 3, 4])); // Output: 10
+console.log(sumArray([1, 2, 3, 4]));
 
 
 
@@ -109,7 +109,7 @@ const findEvenNumbers = (arr) => {
   }
   return evens;
 }
-console.log(findEvenNumbers([1, 2, 3, 4, 5, 6])); // Output: [2, 4, 6]
+console.log(findEvenNumbers([1, 2, 3, 4, 5, 6]));
 
 
 
@@ -125,7 +125,7 @@ const capitalizeWords = (str) => {
   }
   return words.join(" ");
 }
-console.log(capitalizeWords("hello world")); // Output: "Hello World"
+console.log(capitalizeWords("hello world")); 
 
 
 // ---------------------------------------------------------------------------------
@@ -140,7 +140,7 @@ const factorial = (n) => {
   }
   return fact;
 }
-console.log(factorial(5)); // Output: 120
+console.log(factorial(5)); 
 
 
 
